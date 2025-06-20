@@ -173,4 +173,8 @@ npm test
 - Tema consistente com cores customizáveis
 - Componentes reutilizáveis
 - Acessibilidade
+
+## OBS
+
+- O aplicativo está em inglês propositalmente, visto que o teste é para uma equipe internacional. :)
 ---
