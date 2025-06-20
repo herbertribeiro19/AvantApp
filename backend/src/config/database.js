@@ -6,6 +6,12 @@ module.exports = {
   password: process.env.DB_PASS || "",
   database: process.env.DB_NAME || "avant_soft",
   dialect: "mysql",
+  timezone: "-03:00", // Timezone do Brasil (UTC-3)
+  dialectOptions: {
+    timezone: "-03:00", // Timezone para MySQL
+    dateStrings: true,
+    typeCast: true,
+  },
   define: {
     timestamps: true,
     underscored: true,

@@ -43,9 +43,10 @@ routes.use(authMiddleware);
  *               phone:
  *                 type: string
  *                 description: Telefone do cliente
- *               address:
+ *               birthDate:
  *                 type: string
- *                 description: Endereço do cliente
+ *                 format: date
+ *                 description: Data de nascimento do cliente (YYYY-MM-DD)
  *     responses:
  *       200:
  *         description: Cliente criado com sucesso
@@ -134,8 +135,10 @@ routes.get("/clients/:id", ClientController.show);
  *                 type: string
  *               phone:
  *                 type: string
- *               address:
+ *               birthDate:
  *                 type: string
+ *                 format: date
+ *                 description: Data de nascimento do cliente (YYYY-MM-DD)
  *     responses:
  *       200:
  *         description: Cliente atualizado com sucesso

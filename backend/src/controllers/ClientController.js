@@ -4,13 +4,13 @@ const Client = require("../models/Client");
 class ClientController {
   async store(req, res) {
     try {
-      const { name, email, phone, address } = req.body;
+      const { name, email, phone, birthDate } = req.body;
 
       const client = await Client.create({
         name,
         email,
         phone,
-        address,
+        birthDate,
       });
 
       return res.json(client);
@@ -58,7 +58,7 @@ class ClientController {
   async update(req, res) {
     try {
       const { id } = req.params;
-      const { name, email, phone, address } = req.body;
+      const { name, email, phone, birthDate } = req.body;
 
       const client = await Client.findByPk(id);
 
@@ -70,7 +70,7 @@ class ClientController {
         name,
         email,
         phone,
-        address,
+        birthDate,
       });
 
       return res.json(client);

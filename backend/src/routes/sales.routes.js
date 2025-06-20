@@ -106,4 +106,34 @@ routes.get("/sales/daily-stats", SalesController.dailyStats);
  */
 routes.get("/sales/client-stats", SalesController.clientStats);
 
+/**
+ * @swagger
+ * /api/sales/weekly-stats:
+ *   get:
+ *     summary: Retorna estatísticas de vendas dos últimos 7 dias
+ *     tags: [Sales]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Estatísticas semanais
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   date:
+ *                     type: string
+ *                     format: date
+ *                     description: Data (YYYY-MM-DD)
+ *                   total:
+ *                     type: number
+ *                     description: Total de vendas do dia
+ *       401:
+ *         description: Não autorizado
+ */
+routes.get("/sales/weekly-stats", SalesController.weeklyStats);
+
 module.exports = routes;
