@@ -1,6 +1,6 @@
-# AvantApp - Take Home Test (Fullstack App)
+# AvantApp - Take Home Test (Fullstack App - IOS & Android)
 
-## 🎯 Funcionalidades Principais
+## Funcionalidades Principais
 
 ### Clientes
 
@@ -27,7 +27,7 @@
 - Sistema de login/registro com JWT
 - Proteção de rotas
 
-## 🏗️ Arquitetura do Sistema
+## Arquitetura
 
 ### Frontend (React Native + Expo)
 
@@ -58,42 +58,45 @@ src/
 └── swagger.js          # Documentação da API
 ```
 
-## 🛠️ Stack Tecnológica
+## Tecnologias
 
 ### Frontend
 
-- **React Native 0.79.4** - Framework mobile
-- **Expo 53.0.12** - Plataforma de desenvolvimento
-- **TypeScript 5.8.3** - Tipagem estática
-- **React Navigation 7.x** - Navegação entre telas
-- **React Native Chart Kit** - Gráficos e visualizações
-- **Axios** - Cliente HTTP
-- **AsyncStorage** - Armazenamento local
-- **Vector Icons** - Ícones da aplicação
+- **React Native 0.79.4**
+- **Expo 53.0.12**
+- **TypeScript**
+- **React Navigation**
+- **React Native Chart Kit**
+- **Axios**
+- **AsyncStorage**
+- **Vector Icons**
 
 ### Backend
 
-- **Node.js** - Runtime JavaScript
-- **Express.js 4.18.2** - Framework web
-- **Sequelize 6.32.1** - ORM para MySQL
-- **MySQL2 3.6.0** - Driver do banco de dados
-- **JWT 9.0.2** - Autenticação
-- **Bcryptjs 2.4.3** - Criptografia de senhas
-- **Swagger** - Documentação da API
-- **Jest** - Testes unitários
+- **Node.js**
+- **Express.js**
+- **Sequelize**
+- **MySQL2**
+- **JWT**
+- **Bcryptjs**
+- **Swagger**
+- **Jest**
+
+### Sistema Operacional utilizado
+- MacOS Sequoia Versão 15.5
 
 ### Banco de Dados
 
-- **MySQL** - Sistema de gerenciamento de banco relacional
+- **MySQL** - Banco relacional
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
 - Node.js 18+
 - MySQL 8.0+
-- Expo CLI
-- React Native CLI
+- Expo
+- React Native
 
 ### Backend
 
@@ -111,7 +114,7 @@ npm install
 npm expo start
 ```
 
-## 🔧 Funcionalidades Técnicas
+## Funcionalidades Técnicas
 
 ### Tratamento de Timezone
 
@@ -124,7 +127,7 @@ npm expo start
 - Feedback visual (erros e sucesso)
 - Loading states
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Autenticação
 
@@ -144,7 +147,7 @@ npm expo start
 - `GET /api/sales/weekly-stats` - Estatísticas semanais
 - `GET /api/sales/client-stats` - Estatísticas de clientes
 
-## 🧪 Testes
+## Testes
 
 ### Backend
 
@@ -153,11 +156,11 @@ cd backend
 npm test
 ```
 
-## 📚 Documentação API
+## Documentação da API
 
 - **Swagger UI**: Disponível em `/api-docs` quando o servidor estiver rodando
 
-## 🔒 Segurança
+## Segurança
 
 - Autenticação JWT
 - Criptografia de senhas com bcrypt
@@ -165,10 +168,9 @@ npm test
 - Sanitização de dados
 - CORS configurado
 
-## 🎨 Design System
+## Design System
 
 - Tema consistente com cores customizáveis
 - Componentes reutilizáveis
 - Acessibilidade
-
 ---
