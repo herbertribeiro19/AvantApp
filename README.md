@@ -176,5 +176,5 @@ npm test
 
 ## OBS
 
-- O aplicativo está em inglês propositalmente, visto que o teste é para uma equipe internacional. :)
+- O aplicativo está em inglês propositalmente, visto que o teste é para um projeto internacional. :)
 ---
