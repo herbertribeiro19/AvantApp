@@ -153,12 +153,6 @@ cd backend
 npm test
 ```
 
-### Cobertura
-
-- Testes unitários para controllers
-- Testes de integração para rotas
-- Validação de schemas
-
 ## 📚 Documentação API
 
 - **Swagger UI**: Disponível em `/api-docs` quando o servidor estiver rodando
