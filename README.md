@@ -105,6 +105,10 @@ src/
 - **Swagger**
 - **Jest**
 
+### Outros
+
+- **Git**
+
 ### Sistema Operacional utilizado
 
 - MacOS Sequoia Versão 15.5
