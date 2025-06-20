@@ -1,5 +1,28 @@
 # AvantApp - Take Home Test (Fullstack App - IOS & Android)
 
+## Screenshots do App
+
+<table>
+  <tr>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.37.22.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.37.40.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.09.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.16.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.20.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.23.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.28.png" width="200"></td>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.32.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="app/AvantApp/assets/screens/Simulator Screenshot - 15 Pro - 2025-06-20 at 09.38.34.png" width="200"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
 ## Funcionalidades Principais
 
 ### Clientes
@@ -83,6 +106,7 @@ src/
 - **Jest**
 
 ### Sistema Operacional utilizado
+
 - MacOS Sequoia Versão 15.5
 
 ### Banco de Dados
@@ -110,6 +134,7 @@ npm run dev
 
 ```bash
 cd app/AvantApp
+open -a simulator (Rodar o emulador de IOS - MacOS)
 npm install
 npm expo start
 ```
@@ -177,4 +202,5 @@ npm test
 ## OBS
 
 - O aplicativo está em inglês propositalmente, visto que o teste é para um projeto internacional. :)
+
 ---
