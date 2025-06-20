@@ -1,4 +1,4 @@
-# AvantApp - Take Home Test
+# AvantApp - Take Home Test (Fullstack App)
 
 ## 🎯 Funcionalidades Principais
 
