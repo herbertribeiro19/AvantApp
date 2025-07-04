@@ -203,8 +203,4 @@ npm test
 - Componentes reutilizáveis
 - Acessibilidade
 
-## OBS
-
-- O aplicativo está em inglês propositalmente, visto que o teste é para um projeto internacional. :)
-
 ---
